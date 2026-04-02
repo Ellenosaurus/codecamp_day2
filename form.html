@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form method="post">
+        <label>
+            Nama:
+        </label>
+        <input
+        type="text" />
+        <input
+        type = "checkbox" />
+        <br>
+        <input
+        type="password" />
+        <hr>
+
+        <textarea
+        rows="10"
+        cols="30"
+        > ketik kalimat apa saja disini.</textarea>
+
+        <br>
+
+        <!-- fieldset untuk kotak seperasi -->
+        <fieldset>
+            <legend> Terkait Informasi User</legend>
+            <label>
+            Apa warna favoritmu?</label>
+        <br>
+
+        <!-- Select utk buat dropdown -->
+        <select>
+            <optgroup
+            label="Warna awal">
+            <option>Merah</option>
+            <option>Kuning</option>
+            </optgroup>
+            
+            <optgroup 
+            label="warna lanjutan">
+            <option>Biru</option>
+            <option>Pink</option>
+            </optgroup>
+        </select>
+        </fieldset>
+
+        <br>
+
+        <button> Simpan </button>
+    </form>
+</body>
+</html>
